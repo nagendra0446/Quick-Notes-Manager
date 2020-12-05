@@ -1,0 +1,82 @@
+body
+{
+	font-family:inter;
+	text-align:center;
+	background-color:#e0ece4;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.intro
+{
+	font-weight:500;
+	margin: 40px;
+}
+.form_table, .profile_table
+{
+	display:inline-block;
+	text-align:left;
+	padding:20px 60px 10px 60px;
+}
+td
+{
+	padding:5px;
+	font-weight:500;
+}
+.required
+{
+    color: red;
+}
+form
+{
+	border: 1px solid black;
+	display: inline-block;
+	text-align:center;
+	padding:10px 20px 10px 10px;
+	border-radius:10px;
+	font-size:20px;
+	border: none;
+}
+input,select,textarea
+{
+	border: 1px solid black;
+	border-radius:3px;
+	padding:3px;
+	font-family: inter;
+	background-color: white;
+	font-size:20px;
+	font-weight:600;
+	border: none;
+	
+}
+.input_area
+{
+	display:inline-block;
+}
+.title
+{
+	font-weight:600;
+}
+.add_notes
+{
+	font-family: inter;
+	background-color: #318fb5;
+	color:white;
+	font-weight: 600;
+	padding:5px;
+	margin-top:20px;	
+}
+input:focus, textarea:focus, select:focus
+{
+	outline: none;
+}
+
+.profile_table
+{
+	display: inline-block;
+	padding:10px 20px 10px 10px;
+	line-height: 28px;
+	border-radius:10px;
+	font-size: 25px;
+	border: none;
+	font-weight: 400;
+}

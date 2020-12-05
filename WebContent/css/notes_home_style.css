@@ -1,0 +1,163 @@
+body
+{
+	background-color:#e0ece4;
+	text-align:center;
+	font-size:12px;
+}
+h1
+{
+	font-family:inter;
+	font-weight:300;
+	font-size:50px;
+	margin: 10px 10px 0px 10px;
+}
+input:focus, textarea:focus, select:focus
+{
+	outline: none;
+}
+.add_area
+{
+	display: inline-block;
+	padding: 0px;
+	margin-bottom:3px;
+	text-align:center;
+}
+.note_model
+{
+	display:inline-block;
+	padding:5px 0px 5px 5px;
+	margin-bottom:10px;
+}
+table
+{
+	table-layout: fixed;
+	border-radius:4px;
+	max-width:100%;
+}
+table,td
+{
+	font-size:20px;
+	font-family: inter;
+	padding:6px;
+}
+td.title
+{
+	font-size:24px;
+	width:600px;
+	font-weight: bold;
+	max-width:600px;
+	word-wrap: break-word;
+	color:#204051;
+	text-align: left;
+}
+td.status
+{
+	font-weight:500;
+	width:150px;
+	text-align:right;
+}
+td.notes
+{
+	font-weight:500;
+	max-width:750px;
+	word-wrap: anywhere;
+	text-align:left;
+	white-space: pre-wrap;
+}
+.edit_opt
+{
+	padding:0px 2px 0px 10px;
+	line-height: 50px;
+}
+.user_info_pc
+{
+   	position: absolute;
+    right: 20px;
+    top: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-family: inter;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px; 
+    margin-top: 20px;
+}
+
+.line
+{
+	border: 1px solid black;
+	background-color: black;
+}
+
+.user_info_mobile
+{
+	position: static;
+    text-align: center;
+    line-height: 20px;
+    font-family: inter;
+    font-size: 17px;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.logout_button
+{
+	display: inline-block;
+    font-family: inter;
+    font-size: 15px;
+    background-color: #c75643;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    width: 110px;
+    margin-top: 10px;
+}
+
+.profile_button
+{
+	display: inline-block;
+    font-family: inter;
+    font-size: 15px;
+    background-color: #5aa469;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8px;
+    width: 110px;
+    margin-top: 10px;
+}
+
+.about_text
+{
+   font-size: 25px;
+   font-weight: 600;
+   padding-right: 15px;
+   cursor: pointer;
+}
+.about
+{
+    cursor: pointer;
+}
+
+.about_heading
+{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: justify;
+}
+.info
+{
+    color: #892cdc;
+}
+.return_button
+{
+    text-decoration: none;
+    background-color: #892cdc;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}

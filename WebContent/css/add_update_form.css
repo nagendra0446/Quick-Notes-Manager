@@ -1,0 +1,59 @@
+body
+{
+	font-family:inter;
+	text-align:center;
+	background-color: #d0e8f2;
+}
+input:focus, textarea:focus, select:focus
+{
+	outline: none;
+}
+form
+{
+	width:65%;
+	border: 1px solid black;
+	display: inline-block;
+	text-align:left;
+	line-height: 50px;
+	padding:10px 20px 10px 10px;
+	border-radius:3px;
+	font-size:20px;
+	border: none;
+	padding: 20px;
+}
+input,select,textarea
+{
+	border: 1px solid black;
+	border-radius:3px;
+	padding:3px;
+	font-family:inter;
+	background-color: white;
+	font-size:20px;
+	font-weight:500;
+	border: none;
+	
+}
+h1
+{
+	font-family:inter;
+	font-weight:600;
+	font-size:35px;
+	margin: 25px;
+}
+.title
+{
+	font-weight:600;
+	width:100%;
+}
+.add_notes, .update_notes
+{
+	color:black;
+	font-weight: bolder;
+	border: 2px solid black;
+}
+textarea
+{
+	resize: vertical;
+	font-family:inter;
+	width:100%;
+}

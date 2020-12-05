@@ -1,0 +1,10 @@
+<Context>
+
+	<Resource name="mysql/nagdb" 
+		auth="Container" type="javax.sql.DataSource"
+		maxTotal="20" maxIdle="5" maxWaitMillis="10000"
+		username="nag" password="nag123" 
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/nagdb"/>
+		
+</Context>

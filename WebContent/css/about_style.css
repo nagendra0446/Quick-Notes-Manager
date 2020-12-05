@@ -1,0 +1,86 @@
+body
+{
+    font-family: inter;
+    background-color: whitesmoke;
+}
+.header_tab
+{
+    background-color: white;
+    width:100%;
+}
+.heading
+{
+    vertical-align: center;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.about_text
+{
+   font-size: 25px;
+   font-weight: 600;
+   padding-right: 15px;
+   cursor: pointer;
+}
+.about
+{
+    cursor: pointer;
+}
+
+.cases_area
+{
+    width:100%;
+    word-spacing: 10px;
+}
+
+.cases
+{
+    width:18%;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 6px;
+}
+
+.req_text
+{
+    font-family: inter;
+    font-size: 25px;
+    font-weight: 700;
+    width: 90%;
+    color: #006a71;
+    
+}
+
+#total_confirmed, #total_recovered, #total_deaths
+{
+    font-size: 25px;
+}
+
+#delta_confirmed, #delta_recovered, #delta_deaths
+{
+    font-size: 20px;
+}
+
+.about_heading
+{
+    margin: 20px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: justify;
+}
+.info
+{
+    color: #892cdc;
+}
+.return_button
+{
+    text-decoration: none;
+    background-color: #892cdc;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
