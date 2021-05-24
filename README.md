@@ -2,7 +2,7 @@
 
 ## A web application to store and manage your notes.
 
-## Website: **[http://35.209.202.37/quicknotes_php](http://35.209.202.37/quicknotes_php/)**
+## Website: **[http://35.209.202.37/quicknotes_php](http://35.209.202.37/quicknotes/)**
 
 ![](readme_images/signin.png)
 
